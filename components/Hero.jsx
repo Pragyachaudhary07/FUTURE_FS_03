@@ -1,30 +1,25 @@
 export default function Hero() {
   return (
-    <section style={{
-      padding: "80px 40px",
-      backgroundColor: "#1DB954",
-      color: "#000",
-      minHeight: "60vh"
-    }}>
-      <h1 style={{ fontSize: "48px", marginBottom: "16px" }}>
-        Listening is everything
-      </h1>
-      <p style={{ fontSize: "18px" }}>
-        Millions of songs and podcasts. No credit card needed.
-      </p>
+    <section className="bg-black text-white min-h-screen flex items-center justify-center px-6">
+      <div className="max-w-4xl text-center">
+        <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          Music for everyone.
+        </h1>
 
-      <button style={{
-        marginTop: "24px",
-        padding: "14px 28px",
-        borderRadius: "30px",
-        border: "none",
-        backgroundColor: "#000",
-        color: "#1DB954",
-        fontSize: "16px",
-        cursor: "pointer"
-      }}>
-        Get Spotify Free
-      </button>
+        <p className="text-gray-300 text-lg md:text-xl mb-8">
+          Millions of songs. No credit card needed.
+        </p>
+
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <button className="bg-green-500 hover:bg-green-400 text-black font-semibold px-8 py-3 rounded-full transition">
+            Get Spotify Free
+          </button>
+
+          <button className="border border-white hover:bg-white hover:text-black font-semibold px-8 py-3 rounded-full transition">
+            View Premium
+          </button>
+        </div>
+      </div>
     </section>
   );
 }
