@@ -41,5 +41,5 @@ I chose **Spotify** and focused on creating a modern, clean, and scalable UI str
 ![Features](public/images/features.png)
 
 ### 🌐 Full Preview
-![Full Preview](public/images/full-page.png)
+![Full Preview](public/images/full-preview.png)
 
