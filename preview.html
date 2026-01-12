@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>Spotify Rebrand Preview</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <style>
     body {
       margin: 0;
@@ -11,65 +12,120 @@
       background: black;
       color: white;
     }
+
+    /* NAVBAR */
     nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 20px 40px;
+      background: black;
     }
+
     nav h1 {
       color: #1DB954;
+      margin: 0;
     }
+
+    nav div {
+      color: white;
+    }
+
+    /* HERO SECTION */
     .hero {
       text-align: center;
-      padding: 100px 20px;
+      padding: 120px 20px;
       background: linear-gradient(to bottom, #1DB954, black);
     }
+
     .hero h2 {
       font-size: 48px;
       margin-bottom: 20px;
     }
+
     .hero p {
       font-size: 18px;
       color: #ddd;
     }
+
+    /* FEATURES SECTION */
+    .features {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .features h2 {
+      color: #1DB954;
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .feature-card {
+      background: #111;
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    .feature-card h3 {
+      color: #1DB954;
+      margin-bottom: 10px;
+    }
+
+    .feature-card p {
+      color: #ccc;
+      font-size: 15px;
+    }
   </style>
 </head>
+
 <body>
 
+  <!-- NAVBAR -->
   <nav>
     <h1>Spotify</h1>
     <div>Premium | Support | Download</div>
   </nav>
 
+  <!-- HERO -->
   <section class="hero">
     <h2>Music for everyone.</h2>
     <p>Millions of songs. No credit card needed.</p>
   </section>
+
+  <!-- FEATURES -->
   <section class="features">
-  <h2>Why Spotify?</h2>
+    <h2>Why Spotify?</h2>
 
-  <div class="feature-grid">
-    <div class="feature-card">
-      <h3>🎵 Ad-free Music</h3>
-      <p>Enjoy uninterrupted music without ads.</p>
-    </div>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <h3>🎵 Ad-free Music</h3>
+        <p>Enjoy uninterrupted music without ads.</p>
+      </div>
 
-    <div class="feature-card">
-      <h3>📥 Offline Downloads</h3>
-      <p>Download songs and listen anytime.</p>
-    </div>
+      <div class="feature-card">
+        <h3>📥 Offline Downloads</h3>
+        <p>Download songs and listen anytime.</p>
+      </div>
 
-    <div class="feature-card">
-      <h3>🎧 Personalized Playlists</h3>
-      <p>Music curated just for your taste.</p>
-    </div>
+      <div class="feature-card">
+        <h3>🎧 Personalized Playlists</h3>
+        <p>Music curated just for your taste.</p>
+      </div>
 
-    <div class="feature-card">
-      <h3>🔊 High Quality Audio</h3>
-      <p>Crystal clear sound experience.</p>
+      <div class="feature-card">
+        <h3>🔊 High Quality Audio</h3>
+        <p>Crystal clear sound experience.</p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+
 </body>
 </html>
