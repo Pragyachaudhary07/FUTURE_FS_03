@@ -35,7 +35,11 @@ I chose **Spotify** and focused on creating a modern, clean, and scalable UI str
 ## 📸 Screenshots
 
 ### 🎵 Spotify Rebrand – Hero Section
-![Hero Section](public/hero-section.png)
+![Hero Section](public/images/hero-section.png)
+
+### ✨ Features Section
+![Features](public/images/features.png)
 
 ### 🌐 Full Preview
-![Spotify Rebrand Preview](public/spotify-rebrand-preview.png)
+![Full Preview](public/images/full-page.png)
+
